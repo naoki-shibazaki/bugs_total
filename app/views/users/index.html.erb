@@ -1,1 +1,12 @@
-<h1>hello</h1>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="members.scss" type="text/css">
+</head>
+<body>
+    <% @users.each do |user| %>
+        <%= user.name %><br>
+        <%= user.email %><br>
+        <%= user.password_digest %><br>
+        <br>
+    <% end %>
+</body>

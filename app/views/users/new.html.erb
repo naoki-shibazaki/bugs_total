@@ -1,0 +1,18 @@
+<%= form_with model: @user do |form| %>
+    <%= form.label :name, "名前（全角）" %>
+    <%= form.text_field :name %><br/>
+    <%= form.label :email, "メールアドレス" %>
+    <%= form.text_field :email %><br/>
+
+    <div class="field">
+    <%= form.label :password_digest, "パスワード" %><br>
+    <%= form.password_field :password %>
+  </div>
+  <div class="field">
+    <%= form.label :password_confirmation, "パスワード再入力" %><br>
+    <%= form.password_field :password_confirmation %>
+  </div>
+
+    <%= form.submit %>
+
+    <% end %>
