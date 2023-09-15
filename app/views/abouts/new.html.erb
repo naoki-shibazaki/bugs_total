@@ -1,0 +1,32 @@
+<h1>head</h1>
+
+<% if @about.errors.any? %>
+
+  <div id="error_explanation" class="alert alert-danger">
+    <ul>
+      <% @about.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+
+<%= form_with model: @about, local: true do |form| %>
+<%= form.label :companyName, '会社名' %> <%= form.text_field :companyName %><br>
+<%= form.label :invoiceApplicable, 'インボイス該当' %> <%= form.check_box :invoiceApplicable%><br>
+<%= form.label :invoiceIssueUnit, '請求書の発行単位' %> <%= form.check_box :invoiceIssueUnit %><br>
+<%= form.label :phoneNumber, '電話番号' %> <%= form.text_field :phoneNumber %><br>
+<%= form.label :fax, 'FAX' %> <%= form.text_field :fax %><br>
+<%= form.label :postalCode, '郵便番号' %> <%= form.text_field :postalCode%><br>
+<%= form.label :headOfficeAddressCityStreet, '本社所在地(市区町村・番地)' %> <%= form.text_field :headOfficeAddressCityStreet%><br>
+<%= form.label :headOfficeAddressBuilding, '本社所在地(ビル名など)' %> <%= form.text_field :headOfficeAddressBuilding%><br>
+<%= form.label :representativeName, '担当者名' %> <%= form.text_field :representativeName%><br>
+<%= form.label :emailForExtension, 'メールアドレス（延長確認用）' %> <%= form.text_field :emailForExtension%><br>
+<%= form.label :ccMailingList, 'CCメーリングリスト' %> <%= form.text_field :ccMailingList%><br>
+<%= form.label :bccMailingList, 'BCCメーリングリスト' %> <%= form.text_field :bccMailingList%><br>
+<%= form.label :nameForAccountingDocs, '担当者名（経理書類送付）' %> <%= form.text_field :nameForAccountingDocs%><br>
+<%= form.label :emailForAccountingDocs, 'メールアドレス（経理書類送付用）' %> <%= form.text_field :emailForAccountingDocs%><br>
+<%= form.label :ccMailingListAccounting, 'CCメーリングリスト' %> <%= form.text_field :ccMailingListAccounting%><br>
+<%= form.label :bccMailingListAccounting, 'BCCメーリングリスト' %> <%= form.text_field :bccMailingListAccounting%><br>
+<%= form.submit "投稿" %>
+<% end %>

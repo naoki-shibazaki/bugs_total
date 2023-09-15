@@ -10,7 +10,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_09_15_035206) do
+ActiveRecord::Schema[7.0].define(version: 2023_09_15_042150) do
+  create_table "abouts", force: :cascade do |t|
+    t.string "companyName"
+    t.boolean "invoiceApplicable"
+    t.boolean "invoiceIssueUnit"
+    t.string "phoneNumber"
+    t.string "fax"
+    t.string "postalCode"
+    t.string "headOfficeAddressCityStreet"
+    t.string "headOfficeAddressBuilding"
+    t.string "representativeName"
+    t.string "emailForExtension"
+    t.string "ccMailingList"
+    t.string "bccMailingList"
+    t.string "nameForAccountingDocs"
+    t.string "emailForAccountingDocs"
+    t.string "ccMailingListAccounting"
+    t.string "bccMailingListAccounting"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "contracts", force: :cascade do |t|
     t.string "woker"
     t.date "contractStart"

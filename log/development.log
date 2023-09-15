@@ -911,3 +911,56 @@ Processing by ContractsController#index as */*
 Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.1ms | Allocations: 3330)
 
 
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateAbouts (20230915042150)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "abouts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "companyName" varchar, "invoiceApplicable" boolean, "invoiceIssueUnit" boolean, "phoneNumber" varchar, "fax" varchar, "postalCode" varchar, "headOfficeAddressCityStreet" varchar, "headOfficeAddressBuilding" varchar, "representativeName" varchar, "emailForExtension" varchar, "ccMailingList" varchar, "bccMailingList" varchar, "nameForAccountingDocs" varchar, "emailForAccountingDocs" varchar, "ccMailingListAccounting" varchar, "bccMailingListAccounting" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230915042150"]]
+  [1m[36mTRANSACTION (7.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/abouts" for ::1 at 2023-09-15 13:39:29 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AboutsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering abouts/index.html.erb within layouts/application
+  [1m[36mAbout Load (0.2ms)[0m  [1m[34mSELECT "abouts".* FROM "abouts"[0m
+  ↳ app/views/abouts/index.html.erb:3
+  Rendered abouts/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1322)
+  Rendered layout layouts/application.html.erb (Duration: 75.2ms | Allocations: 37471)
+Completed 200 OK in 114ms (Views: 82.2ms | ActiveRecord: 0.2ms | Allocations: 42620)
+
+
+Started GET "/abouts/new" for ::1 at 2023-09-15 13:39:32 +0900
+Processing by AboutsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering abouts/new.html.erb within layouts/application
+  Rendered abouts/new.html.erb within layouts/application (Duration: 12.5ms | Allocations: 4474)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 6663)
+Completed 200 OK in 33ms (Views: 19.0ms | ActiveRecord: 0.6ms | Allocations: 17968)
+
+
+Started POST "/abouts" for ::1 at 2023-09-15 13:39:43 +0900
+Processing by AboutsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "about"=>{"companyName"=>"aaa", "invoiceApplicable"=>"1", "invoiceIssueUnit"=>"1", "phoneNumber"=>"a", "fax"=>"aadfasf", "postalCode"=>"a", "headOfficeAddressCityStreet"=>"sfasdf", "headOfficeAddressBuilding"=>"f", "representativeName"=>"sdfas", "emailForExtension"=>"dfasf", "ccMailingList"=>"sadfsad", "bccMailingList"=>"fsadf", "nameForAccountingDocs"=>"sdfasdf", "emailForAccountingDocs"=>"asdfsa", "ccMailingListAccounting"=>"fsadf", "bccMailingListAccounting"=>"asdfsad"}, "commit"=>"投稿"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/abouts_controller.rb:13:in `create'
+  [1m[36mAbout Create (0.5ms)[0m  [1m[32mINSERT INTO "abouts" ("companyName", "invoiceApplicable", "invoiceIssueUnit", "phoneNumber", "fax", "postalCode", "headOfficeAddressCityStreet", "headOfficeAddressBuilding", "representativeName", "emailForExtension", "ccMailingList", "bccMailingList", "nameForAccountingDocs", "emailForAccountingDocs", "ccMailingListAccounting", "bccMailingListAccounting", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["companyName", "aaa"], ["invoiceApplicable", 1], ["invoiceIssueUnit", 1], ["phoneNumber", "a"], ["fax", "aadfasf"], ["postalCode", "a"], ["headOfficeAddressCityStreet", "sfasdf"], ["headOfficeAddressBuilding", "f"], ["representativeName", "sdfas"], ["emailForExtension", "dfasf"], ["ccMailingList", "sadfsad"], ["bccMailingList", "fsadf"], ["nameForAccountingDocs", "sdfasdf"], ["emailForAccountingDocs", "asdfsa"], ["ccMailingListAccounting", "fsadf"], ["bccMailingListAccounting", "asdfsad"], ["created_at", "2023-09-15 04:39:43.694388"], ["updated_at", "2023-09-15 04:39:43.694388"]]
+  ↳ app/controllers/abouts_controller.rb:13:in `create'
+  [1m[36mTRANSACTION (7.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/abouts_controller.rb:13:in `create'
+Redirected to http://localhost:3000/abouts
+Completed 302 Found in 14ms (ActiveRecord: 8.4ms | Allocations: 3972)
+
+
+Started GET "/abouts" for ::1 at 2023-09-15 13:39:43 +0900
+Processing by AboutsController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering abouts/index.html.erb within layouts/application
+  [1m[36mAbout Load (0.1ms)[0m  [1m[34mSELECT "abouts".* FROM "abouts"[0m
+  ↳ app/views/abouts/index.html.erb:3
+  Rendered abouts/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 656)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 3071)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.1ms | Allocations: 3403)
+
+

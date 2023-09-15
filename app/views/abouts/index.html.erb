@@ -1,0 +1,25 @@
+<h1>head</h1>
+<ul>
+    <% @abouts.each do |about| %>
+        <li>
+            <h2><%= about.companyName %></h2>
+            <span>
+                <small><%= about.invoiceApplicable %></small>
+                <small><%= about.invoiceIssueUnit %></small>
+                <small><%= about.phoneNumber %></small>
+                <small><%= about.fax %></small>
+                <small><%= about.postalCode %></small>
+                <small><%= about.headOfficeAddressCityStreet %></small>
+                <small><%= about.headOfficeAddressBuilding %></small>
+                <small><%= about.representativeName %></small>
+                <small><%= about.emailForExtension %></small>
+                <small><%= about.ccMailingList %></small>
+                <small><%= about.bccMailingList %></small>
+                <small><%= about.nameForAccountingDocs %></small>
+                <small><%= about.emailForAccountingDocs %></small>
+                <small><%= about.ccMailingListAccounting %></small>
+                <small><%= about.bccMailingListAccounting %></small>
+            </span>
+        </li>
+    <% end %>
+</ul>
