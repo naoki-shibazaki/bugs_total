@@ -10,7 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_09_10_073738) do
+ActiveRecord::Schema[7.0].define(version: 2023_09_15_035206) do
+  create_table "contracts", force: :cascade do |t|
+    t.string "woker"
+    t.date "contractStart"
+    t.date "contractEnd"
+    t.date "closingDate"
+    t.date "documentIssueDate"
+    t.string "companyRepresentative"
+    t.date "totalContractPeriod"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email"

@@ -1,0 +1,21 @@
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="" type="text/css">
+</head>
+
+<h1>
+    契約情報登録
+</h1>
+
+<body>
+    <%= form_with model: @contract do |form| %>
+        <%= form.label :woker, '作業者' %> <%= form.text_field :woker %><br>
+        <%= form.label :contractStart, '契約開始' %> <%= form.date_field :contractStart %><br>
+        <%= form.label :contractEnd, '契約終了' %> <%= form.date_field :contractEnd %><br>
+        <%= form.label :closingDate, '締め日' %> <%= form.date_field :closingDate %><br>
+        <%= form.label :documentIssueDate, '書類発行日' %> <%= form.date_field :documentIssueDate %><br>
+        <%= form.label :companyRepresentative, '自社の担当者' %> <%= form.text_field :companyRepresentative %><br>
+        <%= form.label :totalContractPeriod, '通算契約期間' %> <%= form.date_field :totalContractPeriod %><br>
+        <%= form.submit "投稿" %>
+    <% end %>
+</body>

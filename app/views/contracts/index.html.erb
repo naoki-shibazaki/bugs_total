@@ -1,0 +1,16 @@
+<ul>
+    <% @contracts.each do |contract| %>
+        <li>
+            <h2><%= contract.woker %></h2>
+            <span>
+                <small><%= contract.contractStart %></small>
+                <small><%= contract.contractEnd %></small>
+                <small><%= contract.closingDate %></small>
+                <small><%= contract.documentIssueDate %></small>
+                <small><%= contract.companyRepresentative %></small>
+                <small><%= contract.totalContractPeriod %></small>
+                <small><%= contract.created_at %></small>
+            </span>
+        </li>
+    <% end %>
+</ul>
