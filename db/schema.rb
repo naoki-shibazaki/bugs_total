@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_09_18_095204) do
+ActiveRecord::Schema[7.0].define(version: 2023_09_19_041334) do
   create_table "abouts", force: :cascade do |t|
     t.string "companyName"
     t.boolean "invoiceApplicable"
@@ -68,6 +68,26 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_18_095204) do
     t.date "documentIssueDate"
     t.string "companyRepresentative"
     t.date "totalContractPeriod"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "individuals", force: :cascade do |t|
+    t.string "companyName"
+    t.string "contactExtension"
+    t.string "contactAccounting"
+    t.string "phoneNumber"
+    t.string "faxNumber"
+    t.string "headOfficeAddress"
+    t.string "contractType"
+    t.integer "contractPrice"
+    t.string "minimumHours"
+    t.string "maximumHours"
+    t.integer "deduction"
+    t.integer "overtime"
+    t.string "settlementUnit"
+    t.string "paymentSite"
+    t.boolean "toporunder"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

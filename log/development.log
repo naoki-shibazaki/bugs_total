@@ -1854,3 +1854,11 @@ puma (5.6.7) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
 puma (5.6.7) lib/puma/request.rb:76:in `handle_request'
 puma (5.6.7) lib/puma/server.rb:443:in `process_client'
 puma (5.6.7) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateIndividuals (20230919041334)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "individuals" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "companyName" varchar, "contactExtension" varchar, "contactAccounting" varchar, "phoneNumber" varchar, "faxNumber" varchar, "headOfficeAddress" varchar, "contractType" varchar, "contractPrice" integer, "minimumHours" varchar, "maximumHours" varchar, "deduction" integer, "overtime" integer, "settlementUnit" varchar, "paymentSite" varchar, "toporunder" boolean, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230919041334"]]
+  [1m[36mTRANSACTION (9.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
