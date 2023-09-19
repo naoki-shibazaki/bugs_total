@@ -964,3 +964,484 @@ Processing by AboutsController#index as TURBO_STREAM
 Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.1ms | Allocations: 3403)
 
 
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-16 10:02:25 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1745)
+
+
+  
+NameError (uninitialized constant ShowPdfController::ShowPdf):
+  
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-16 10:03:05 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1746)
+
+
+  
+NameError (uninitialized constant ShowPdfController::ShowPdf):
+  
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-16 10:05:25 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 494)
+
+
+  
+NameError (uninitialized constant ShowPdfController::ShowPdf):
+  
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-16 10:13:58 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 481)
+
+
+  
+NameError (uninitialized constant ShowPdfController::ShowPdf):
+  
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-16 10:13:59 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 492)
+
+
+  
+NameError (uninitialized constant ShowPdfController::ShowPdf):
+  
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-16 10:34:00 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 492)
+
+
+  
+NameError (uninitialized constant ShowPdfController::ShowPdf):
+  
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-16 10:34:01 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 490)
+
+
+  
+NameError (uninitialized constant ShowPdfController::ShowPdf):
+  
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-16 10:38:05 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 490)
+
+
+  
+NameError (uninitialized constant ShowPdfController::ShowPdf):
+  
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-16 10:38:07 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 490)
+
+
+  
+NameError (uninitialized constant ShowPdfController::ShowPdf):
+  
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-16 10:38:41 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 481)
+
+
+  
+NameError (uninitialized constant ShowPdfController::ShowPdf):
+  
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf" for ::1 at 2023-09-16 10:38:44 +0900
+Processing by ShowPdfController#index as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 476)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-16 10:38:50 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 490)
+
+
+  
+NameError (uninitialized constant ShowPdfController::ShowPdf):
+  
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-16 10:39:46 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 481)
+
+
+  
+NameError (uninitialized constant ShowPdfController::ShowPdf):
+  
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-16 10:52:38 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 490)
+
+
+  
+NameError (uninitialized constant ShowPdfController::ShowPdf):
+  
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:18:01 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1977)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:18:13 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 560)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:20:09 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 546)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:20:10 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 555)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:20:19 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 555)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:24:51 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 548)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:24:54 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 555)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:25:53 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1837)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:25:54 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 560)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf" for ::1 at 2023-09-18 18:25:58 +0900
+Processing by ShowPdfController#index as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 478)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:26:04 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 557)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:28:23 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 700)
+
+
+  
+NameError (undefined local variable or method `require　Prawn' for main:Object):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:28:40 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 694)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:28:50 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 690)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:2:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:30:34 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 691)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:30:42 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 555)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:31:00 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 555)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:31:01 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 557)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:31:02 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 555)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:31:21 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 548)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:31:21 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 555)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:31:22 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 555)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:31:30 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1837)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/show_pdf.pdf" for ::1 at 2023-09-18 18:31:31 +0900
+Processing by ShowPdfController#index as PDF
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 560)
+
+
+  
+NameError (uninitialized constant Prawn):
+  
+app/models/show_pdf.rb:1:in `<main>'
+app/controllers/show_pdf_controller.rb:5:in `block (2 levels) in index'
+app/controllers/show_pdf_controller.rb:3:in `index'
+Started GET "/contracts" for ::1 at 2023-09-18 18:33:14 +0900
+Processing by ContractsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering contracts/index.html.erb within layouts/application
+  [1m[36mContract Load (0.0ms)[0m  [1m[34mSELECT "contracts".* FROM "contracts"[0m
+  ↳ app/views/contracts/index.html.erb:2
+  [1m[36mAbout Load (0.1ms)[0m  [1m[34mSELECT "abouts".* FROM "abouts"[0m
+  ↳ app/views/contracts/index.html.erb:19
+  Rendered contracts/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 18288)
+  Rendered layout layouts/application.html.erb (Duration: 161.6ms | Allocations: 113275)
+Completed 200 OK in 164ms (Views: 161.8ms | ActiveRecord: 0.6ms | Allocations: 115359)
+
+
+Started GET "/contracts" for ::1 at 2023-09-18 18:33:28 +0900
+Processing by ContractsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering contracts/index.html.erb within layouts/application
+  [1m[36mContract Load (0.0ms)[0m  [1m[34mSELECT "contracts".* FROM "contracts"[0m
+  ↳ app/views/contracts/index.html.erb:2
+  Rendered contracts/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 4456)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 4545)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.3ms | Allocations: 5592)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    16: </ul>
+    17: 
+    18: <ul>
+    19:     <% @abouts.each do |about| %>
+    20:         <li>
+    21:             <h2><%= about.companyName %></h2>
+    22:             <span>
+  
+app/views/contracts/index.html.erb:19
+Started GET "/contracts" for ::1 at 2023-09-18 18:33:38 +0900
+Processing by ContractsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering contracts/index.html.erb within layouts/application
+  [1m[36mContract Load (0.2ms)[0m  [1m[34mSELECT "contracts".* FROM "contracts"[0m
+  ↳ app/views/contracts/index.html.erb:2
+  Rendered contracts/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 928)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 15884)
+Completed 200 OK in 22ms (Views: 18.3ms | ActiveRecord: 0.2ms | Allocations: 16722)
+
+
+Started GET "/contracts/new" for ::1 at 2023-09-18 18:33:45 +0900
+Processing by ContractsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering contracts/new.html.erb within layouts/application
+  Rendered contracts/new.html.erb within layouts/application (Duration: 26.2ms | Allocations: 9984)
+  Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 12348)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.0ms | Allocations: 12719)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateActiveStorageTables (20230918095204)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "active_storage_blobs" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "key" varchar NOT NULL, "filename" varchar NOT NULL, "content_type" varchar, "metadata" text, "service_name" varchar NOT NULL, "byte_size" bigint NOT NULL, "checksum" varchar, "created_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_active_storage_blobs_on_key" ON "active_storage_blobs" ("key")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "active_storage_attachments" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar NOT NULL, "record_type" varchar NOT NULL, "record_id" bigint NOT NULL, "blob_id" bigint NOT NULL, "created_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_c3b3935057"
+FOREIGN KEY ("blob_id")
+  REFERENCES "active_storage_blobs" ("id")
+)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE INDEX "index_active_storage_attachments_on_blob_id" ON "active_storage_attachments" ("blob_id")[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_active_storage_attachments_uniqueness" ON "active_storage_attachments" ("record_type", "record_id", "name", "blob_id")[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE TABLE "active_storage_variant_records" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "blob_id" bigint NOT NULL, "variation_digest" varchar NOT NULL, CONSTRAINT "fk_rails_993965df05"
+FOREIGN KEY ("blob_id")
+  REFERENCES "active_storage_blobs" ("id")
+)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_active_storage_variant_records_uniqueness" ON "active_storage_variant_records" ("blob_id", "variation_digest")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230918095204"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m

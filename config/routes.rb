@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   resources :users, only: [:index, :new, :create, :show, :destroy]
   resources :contracts, only:[:index, :new, :create, :show, :destroy]
   resources :abouts, only:[:index, :new, :create, :show, :destroy]
+  resources :show_pdf, only: :index
 end
