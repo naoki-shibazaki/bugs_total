@@ -15,6 +15,9 @@
     <%= form.password_field :password_confirmation %>
   </div>
 
-    <%= form.submit %>
+   <%= form.submit %>
+   
+   <%= link_to "編集", edit_users_path(@user) %>
+   <%= link_to "削除", users_path(@user), method: :delete %>
 
     <% end %>

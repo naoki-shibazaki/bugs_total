@@ -1,0 +1,29 @@
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="" type="text/css">
+</head>
+
+<h1>
+    
+</h1>
+
+<body>
+    <%= form_with model: @individual do |form| %>
+        <%= form.label :companyName, '会社名' %> <%= form.text_field :companyName %><br>
+        <%= form.label :contactExtension, '担当者（延長）' %> <%= form.text_field :contactExtension %><br>
+        <%= form.label :contactAccounting, '担当者（経理）' %> <%= form.text_field :contactAccounting %><br>
+        <%= form.label :phoneNumber, '電話番号' %> <%= form.text_field :phoneNumber %><br>
+        <%= form.label :faxNumber, 'FAX' %> <%= form.text_field :faxNumber %><br>
+        <%= form.label :headOfficeAddress, '本社所在地' %> <%= form.text_field :headOfficeAddress %><br>
+        <%= form.label :contractType, '契約形態' %> <%= form.text_field :contractType %><br>
+        <%= form.label :contractPrice, '契約単価' %> <%= form.text_field :contractPrice %><br>
+        <%= form.label :minimumHours, '下限時間' %> <%= form.text_field :minimumHours %><br>
+        <%= form.label :maximumHours, '上限時間' %> <%= form.text_field :maximumHours %><br>
+        <%= form.label :deduction, '控除' %> <%= form.text_field :deduction %><br>
+        <%= form.label :overtime, '超過' %> <%= form.text_field :overtime %><br>
+        <%= form.label :settlementUnit, '精算単位' %> <%= form.text_field :settlementUnit %><br>
+        <%= form.label :paymentSite, '支払サイト' %> <%= form.text_field :paymentSite %><br>
+        <%= form.label :toporunder, '提案先' %> <%= form.text_field :toporunder %><br>
+        <%= form.submit "投稿" %>
+    <% end %>
+</body>

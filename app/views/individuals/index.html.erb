@@ -1,0 +1,25 @@
+あ〜〜
+
+<ul>
+    <% @individuals.each do |individual| %>
+        <li>
+            <span>
+                <small><%= individual.companyName %></small>
+                <small><%= individual.contactExtension %></small>
+                <small><%= individual.contactAccounting %></small>
+                <small><%= individual.phoneNumber %></small>
+                <small><%= individual.faxNumber %></small>
+                <small><%= individual.headOfficeAddress %></small>
+                <small><%= individual.contractType %></small>
+                <small><%= individual.contractPrice %></small>
+                <small><%= individual.minimumHours %></small>
+                <small><%= individual.maximumHours %></small>
+                <small><%= individual.deduction %></small>
+                <small><%= individual.overtime %></small>
+                <small><%= individual.settlementUnit %></small>
+                <small><%= individual.paymentSite %></small>
+                <small><%= individual.toporunder %></small>
+            </span>
+        </li>
+    <% end %>
+</ul>
